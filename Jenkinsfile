@@ -1,5 +1,5 @@
 pipeline {
-  agent 'linux_kiran'
+  agent {linux_kiran}
     stages {
       stage ('pull') {
         steps {
